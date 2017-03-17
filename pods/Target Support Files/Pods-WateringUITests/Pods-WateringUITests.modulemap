@@ -1,0 +1,6 @@
+framework module Pods_WateringUITests {
+  umbrella header "Pods-WateringUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

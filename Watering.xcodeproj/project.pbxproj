@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBD89161193B6C94551885E /* Pods_WateringUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D43F0DB777E9D3D2485E6A /* Pods_WateringUITests.framework */; };
+		65C8C2825005D48480D5F9D7 /* Pods_WateringTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE34A12D013C8500AE6447DB /* Pods_WateringTests.framework */; };
+		815C6DBDDE1900570C337985 /* Pods_Watering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34073FE96FCF3956E4B0D887 /* Pods_Watering.framework */; };
+		D8DB14431E7619040090D557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB14421E7619040090D557 /* AppDelegate.swift */; };
+		D8DB14481E7619040090D557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DB14461E7619040090D557 /* Main.storyboard */; };
+		D8DB144A1E7619040090D557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DB14491E7619040090D557 /* Assets.xcassets */; };
+		D8DB144D1E7619040090D557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DB144B1E7619040090D557 /* LaunchScreen.storyboard */; };
+		D8DB14581E7619040090D557 /* WateringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB14571E7619040090D557 /* WateringTests.swift */; };
+		D8DB14631E7619040090D557 /* WateringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB14621E7619040090D557 /* WateringUITests.swift */; };
+		D8DB14711E7619390090D557 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8DB14701E7619390090D557 /* GoogleService-Info.plist */; };
+		D8DB14731E7745C00090D557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB14721E7745BF0090D557 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8DB14541E7619040090D557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8DB14371E7619040090D557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8DB143E1E7619040090D557;
+			remoteInfo = Watering;
+		};
+		D8DB145F1E7619040090D557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8DB14371E7619040090D557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8DB143E1E7619040090D557;
+			remoteInfo = Watering;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34073FE96FCF3956E4B0D887 /* Pods_Watering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55732D9C3EAA919F3B2891D2 /* Pods-WateringUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WateringUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WateringUITests/Pods-WateringUITests.release.xcconfig"; sourceTree = "<group>"; };
+		727740CC1C8622A2C51CBE21 /* Pods-WateringUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WateringUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WateringUITests/Pods-WateringUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A21DA597E9E2476FFCB551B8 /* Pods-WateringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WateringTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WateringTests/Pods-WateringTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACF3962A0A16B0F631E7669A /* Pods-WateringTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WateringTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WateringTests/Pods-WateringTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE34A12D013C8500AE6447DB /* Pods_WateringTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WateringTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE4C72A385419A8F63171C9 /* Pods-Watering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watering.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watering/Pods-Watering.debug.xcconfig"; sourceTree = "<group>"; };
+		D8DB143F1E7619040090D557 /* Watering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DB14421E7619040090D557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8DB14471E7619040090D557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8DB14491E7619040090D557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8DB144C1E7619040090D557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8DB144E1E7619040090D557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DB14531E7619040090D557 /* WateringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WateringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DB14571E7619040090D557 /* WateringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringTests.swift; sourceTree = "<group>"; };
+		D8DB14591E7619040090D557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DB145E1E7619040090D557 /* WateringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WateringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DB14621E7619040090D557 /* WateringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringUITests.swift; sourceTree = "<group>"; };
+		D8DB14641E7619040090D557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DB14701E7619390090D557 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8DB14721E7745BF0090D557 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Desktop/ViewController.swift; sourceTree = "<group>"; };
+		D8DB14761E774E150090D557 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		F2D43F0DB777E9D3D2485E6A /* Pods_WateringUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WateringUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72B6F4BC38598A6BAC0E1DD /* Pods-Watering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watering.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watering/Pods-Watering.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8DB143C1E7619040090D557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815C6DBDDE1900570C337985 /* Pods_Watering.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DB14501E7619040090D557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C8C2825005D48480D5F9D7 /* Pods_WateringTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DB145B1E7619040090D557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBD89161193B6C94551885E /* Pods_WateringUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D600378C28C77F7F7FE00B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34073FE96FCF3956E4B0D887 /* Pods_Watering.framework */,
+				BE34A12D013C8500AE6447DB /* Pods_WateringTests.framework */,
+				F2D43F0DB777E9D3D2485E6A /* Pods_WateringUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41271F5335F4B98EAC1F985C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCE4C72A385419A8F63171C9 /* Pods-Watering.debug.xcconfig */,
+				F72B6F4BC38598A6BAC0E1DD /* Pods-Watering.release.xcconfig */,
+				A21DA597E9E2476FFCB551B8 /* Pods-WateringTests.debug.xcconfig */,
+				ACF3962A0A16B0F631E7669A /* Pods-WateringTests.release.xcconfig */,
+				727740CC1C8622A2C51CBE21 /* Pods-WateringUITests.debug.xcconfig */,
+				55732D9C3EAA919F3B2891D2 /* Pods-WateringUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8DB14361E7619040090D557 = {
+			isa = PBXGroup;
+			children = (
+				D8DB14761E774E150090D557 /* Location.gpx */,
+				D8DB14411E7619040090D557 /* Watering */,
+				D8DB14561E7619040090D557 /* WateringTests */,
+				D8DB14611E7619040090D557 /* WateringUITests */,
+				D8DB14401E7619040090D557 /* Products */,
+				41271F5335F4B98EAC1F985C /* Pods */,
+				0D600378C28C77F7F7FE00B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8DB14401E7619040090D557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8DB143F1E7619040090D557 /* Watering.app */,
+				D8DB14531E7619040090D557 /* WateringTests.xctest */,
+				D8DB145E1E7619040090D557 /* WateringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8DB14411E7619040090D557 /* Watering */ = {
+			isa = PBXGroup;
+			children = (
+				D8DB14421E7619040090D557 /* AppDelegate.swift */,
+				D8DB14721E7745BF0090D557 /* ViewController.swift */,
+				D8DB14461E7619040090D557 /* Main.storyboard */,
+				D8DB14491E7619040090D557 /* Assets.xcassets */,
+				D8DB144B1E7619040090D557 /* LaunchScreen.storyboard */,
+				D8DB144E1E7619040090D557 /* Info.plist */,
+				D8DB14701E7619390090D557 /* GoogleService-Info.plist */,
+			);
+			path = Watering;
+			sourceTree = "<group>";
+		};
+		D8DB14561E7619040090D557 /* WateringTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8DB14571E7619040090D557 /* WateringTests.swift */,
+				D8DB14591E7619040090D557 /* Info.plist */,
+			);
+			path = WateringTests;
+			sourceTree = "<group>";
+		};
+		D8DB14611E7619040090D557 /* WateringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8DB14621E7619040090D557 /* WateringUITests.swift */,
+				D8DB14641E7619040090D557 /* Info.plist */,
+			);
+			path = WateringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8DB143E1E7619040090D557 /* Watering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DB14671E7619040090D557 /* Build configuration list for PBXNativeTarget "Watering" */;
+			buildPhases = (
+				F2C7C0796F1EE3613B2F63D4 /* [CP] Check Pods Manifest.lock */,
+				D8DB143B1E7619040090D557 /* Sources */,
+				D8DB143C1E7619040090D557 /* Frameworks */,
+				D8DB143D1E7619040090D557 /* Resources */,
+				E14EDEC99F0A76CC1D488417 /* [CP] Embed Pods Frameworks */,
+				757F0A6EFC38522002559B27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watering;
+			productName = Watering;
+			productReference = D8DB143F1E7619040090D557 /* Watering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8DB14521E7619040090D557 /* WateringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DB146A1E7619040090D557 /* Build configuration list for PBXNativeTarget "WateringTests" */;
+			buildPhases = (
+				31A3F525077E46AC76408535 /* [CP] Check Pods Manifest.lock */,
+				D8DB144F1E7619040090D557 /* Sources */,
+				D8DB14501E7619040090D557 /* Frameworks */,
+				D8DB14511E7619040090D557 /* Resources */,
+				E958DFC091C58F396DFD3023 /* [CP] Embed Pods Frameworks */,
+				6AF6881B1B4222F761048678 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8DB14551E7619040090D557 /* PBXTargetDependency */,
+			);
+			name = WateringTests;
+			productName = WateringTests;
+			productReference = D8DB14531E7619040090D557 /* WateringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8DB145D1E7619040090D557 /* WateringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DB146D1E7619040090D557 /* Build configuration list for PBXNativeTarget "WateringUITests" */;
+			buildPhases = (
+				7F7C95A126B0F4AA9E5D0460 /* [CP] Check Pods Manifest.lock */,
+				D8DB145A1E7619040090D557 /* Sources */,
+				D8DB145B1E7619040090D557 /* Frameworks */,
+				D8DB145C1E7619040090D557 /* Resources */,
+				98FCA703D7978B6BF81ECA77 /* [CP] Embed Pods Frameworks */,
+				3608947428E7BC745510E8DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8DB14601E7619040090D557 /* PBXTargetDependency */,
+			);
+			name = WateringUITests;
+			productName = WateringUITests;
+			productReference = D8DB145E1E7619040090D557 /* WateringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8DB14371E7619040090D557 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chiu Nick";
+				TargetAttributes = {
+					D8DB143E1E7619040090D557 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48SHWW9V2G;
+						ProvisioningStyle = Automatic;
+					};
+					D8DB14521E7619040090D557 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48SHWW9V2G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8DB143E1E7619040090D557;
+					};
+					D8DB145D1E7619040090D557 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48SHWW9V2G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8DB143E1E7619040090D557;
+					};
+				};
+			};
+			buildConfigurationList = D8DB143A1E7619040090D557 /* Build configuration list for PBXProject "Watering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8DB14361E7619040090D557;
+			productRefGroup = D8DB14401E7619040090D557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8DB143E1E7619040090D557 /* Watering */,
+				D8DB14521E7619040090D557 /* WateringTests */,
+				D8DB145D1E7619040090D557 /* WateringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8DB143D1E7619040090D557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DB144D1E7619040090D557 /* LaunchScreen.storyboard in Resources */,
+				D8DB14711E7619390090D557 /* GoogleService-Info.plist in Resources */,
+				D8DB144A1E7619040090D557 /* Assets.xcassets in Resources */,
+				D8DB14481E7619040090D557 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DB14511E7619040090D557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DB145C1E7619040090D557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A3F525077E46AC76408535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3608947428E7BC745510E8DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WateringUITests/Pods-WateringUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF6881B1B4222F761048678 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WateringTests/Pods-WateringTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		757F0A6EFC38522002559B27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watering/Pods-Watering-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F7C95A126B0F4AA9E5D0460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98FCA703D7978B6BF81ECA77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WateringUITests/Pods-WateringUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14EDEC99F0A76CC1D488417 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watering/Pods-Watering-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E958DFC091C58F396DFD3023 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WateringTests/Pods-WateringTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C7C0796F1EE3613B2F63D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8DB143B1E7619040090D557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DB14731E7745C00090D557 /* ViewController.swift in Sources */,
+				D8DB14431E7619040090D557 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DB144F1E7619040090D557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DB14581E7619040090D557 /* WateringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DB145A1E7619040090D557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DB14631E7619040090D557 /* WateringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8DB14551E7619040090D557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8DB143E1E7619040090D557 /* Watering */;
+			targetProxy = D8DB14541E7619040090D557 /* PBXContainerItemProxy */;
+		};
+		D8DB14601E7619040090D557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8DB143E1E7619040090D557 /* Watering */;
+			targetProxy = D8DB145F1E7619040090D557 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8DB14461E7619040090D557 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DB14471E7619040090D557 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8DB144B1E7619040090D557 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DB144C1E7619040090D557 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8DB14651E7619040090D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8DB14661E7619040090D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8DB14681E7619040090D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE4C72A385419A8F63171C9 /* Pods-Watering.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48SHWW9V2G;
+				INFOPLIST_FILE = Watering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggstudio.Watering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D8DB14691E7619040090D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72B6F4BC38598A6BAC0E1DD /* Pods-Watering.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48SHWW9V2G;
+				INFOPLIST_FILE = Watering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggstudio.Watering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D8DB146B1E7619040090D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21DA597E9E2476FFCB551B8 /* Pods-WateringTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48SHWW9V2G;
+				INFOPLIST_FILE = WateringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggstudio.WateringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watering.app/Watering";
+			};
+			name = Debug;
+		};
+		D8DB146C1E7619040090D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF3962A0A16B0F631E7669A /* Pods-WateringTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48SHWW9V2G;
+				INFOPLIST_FILE = WateringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggstudio.WateringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watering.app/Watering";
+			};
+			name = Release;
+		};
+		D8DB146E1E7619040090D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727740CC1C8622A2C51CBE21 /* Pods-WateringUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 48SHWW9V2G;
+				INFOPLIST_FILE = WateringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggstudio.WateringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Watering;
+			};
+			name = Debug;
+		};
+		D8DB146F1E7619040090D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55732D9C3EAA919F3B2891D2 /* Pods-WateringUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 48SHWW9V2G;
+				INFOPLIST_FILE = WateringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggstudio.WateringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Watering;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8DB143A1E7619040090D557 /* Build configuration list for PBXProject "Watering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DB14651E7619040090D557 /* Debug */,
+				D8DB14661E7619040090D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DB14671E7619040090D557 /* Build configuration list for PBXNativeTarget "Watering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DB14681E7619040090D557 /* Debug */,
+				D8DB14691E7619040090D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DB146A1E7619040090D557 /* Build configuration list for PBXNativeTarget "WateringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DB146B1E7619040090D557 /* Debug */,
+				D8DB146C1E7619040090D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DB146D1E7619040090D557 /* Build configuration list for PBXNativeTarget "WateringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DB146E1E7619040090D557 /* Debug */,
+				D8DB146F1E7619040090D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8DB14371E7619040090D557 /* Project object */;
+}

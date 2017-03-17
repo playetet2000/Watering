@@ -1,0 +1,6 @@
+framework module Pods_Watering {
+  umbrella header "Pods-Watering-umbrella.h"
+
+  export *
+  module * { export * }
+}
